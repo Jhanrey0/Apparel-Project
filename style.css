@@ -322,7 +322,11 @@ header .search-form.active{
 }
 
 .products .box-container .box:hover{
-    background: var(--main-color);
+    background: rgba(255, 251, 251, 0.699);
+}
+
+.products .box-container .box:hover > *{
+    color: var(--black);
 }
 
 .products .box-container .box .icons a{
@@ -336,6 +340,7 @@ header .search-form.active{
 }
 
 .products .box-container .box .icons a:hover{
+    
     background:var(--black);
 }
 
